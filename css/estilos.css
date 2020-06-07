@@ -37,3 +37,9 @@ a:hover{
     text-transform: uppercase;
     font-size: .8rem;
 }
+section{
+    padding: 6rem 0;
+}
+#slider{
+    padding: 0;
+}
