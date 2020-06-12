@@ -2,3 +2,6 @@ https://www.youtube.com/watch?v=4nOLvkTxX9w
 images 1920x900
 
 https://ionicons.com/usage#arrow-forward-outline
+
+La pagina esta publicada en una rama del proyecto llamada gh-pages
+https://alanjob.github.io/JilayFix/
