@@ -88,3 +88,8 @@ section{
     background-color: var(--gold);
     color: var(--dark);
 }
+.blog-info{
+    color: var(--white);
+    bottom: 1rem;
+    left: 1.5rem;
+}
