@@ -25,6 +25,9 @@ h1,h2,h3,h4,h5, .navbar-brand{
 .bg-light-gray{
     background-color: var(--light-grey)!important;
 }
+.bg-gold{
+    background-color: var(--gold)!important;
+}
 .text-gold{
     color: var(--gold)!important; 
 }
@@ -68,6 +71,23 @@ section{
     padding: .5rem 1.8rem;
     border-radius: .2rem;
 }
+.btn-primary{
+    background-color: var(--white) !important;
+    color: var(--dark) !important;
+    border-color: var(--dark) !important;
+}
+.btn-primary:hover{
+    background-color: var(--white) !important;
+    color: var(--dark) !important;
+    border-color: var(--dark) !important;
+}
 .btn-secondary{
     background-color: var(--dark);
 }
+.btn-gold{
+    background-color: var(--gold);
+    color: var(--dark);
+}
+ion-icon {
+    color: var(--gold);
+  }
