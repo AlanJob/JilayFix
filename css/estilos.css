@@ -2,7 +2,8 @@
     --dark: #1a1a1a;
     --white: #ffffff;
     --light-grey:#efefef;
-    --gold:#ecd5a7;
+    /*--gold:#ecd5a7;*/
+    --gold:#28a745;
 }
 .body{
     font-family: 'Roboto Condensed', sans-serif;
