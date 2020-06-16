@@ -3,7 +3,7 @@
     --white: #ffffff;
     --light-grey:#efefef;
     /*--gold:#ecd5a7;*/
-    --gold:#28a745;
+    --gold:#61fd2c;
 }
 .body{
     font-family: 'Roboto Condensed', sans-serif;
@@ -93,4 +93,15 @@ section{
     color: var(--white);
     bottom: 1rem;
     left: 1.5rem;
+}
+.navbar-toggler-icon{
+    background-color: var(--dark) !important;
+    color: var(--gold) !important;
+    border-color: var(--dark) !important;
+}
+
+.navbar-toggler-icon:hover{
+    background-color: var(--dark) !important;
+    color: var(--gold) !important;
+    border-color: var(--dark) !important;
 }
