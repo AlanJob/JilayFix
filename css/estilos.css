@@ -109,3 +109,15 @@ section{
 .img-fluid{
     border-color: var(--dark) !important;
 }
+
+.form-control{
+    padding: 1rem;
+    font-weight: 300;
+    border: 0;
+}
+
+.form-control:focus{
+    outline: none;
+    box-shadow: none;
+    border: 1px solid var(--dark);
+}
