@@ -17,6 +17,7 @@ h1,h2,h3,h4,h5, .navbar-brand{
     font-weight: 500 !important;
     line-height: 1.5 !important;
 }
+
 .bg-dark{
     background-color: var(--dark)!important;
 }
@@ -96,26 +97,24 @@ section{
 }
 .navbar-toggler-icon{
     background-color: var(--dark) !important;
-    color: var(--gold) !important;
+    color: var(--white) !important;
     border-color: var(--dark) !important;
 }
 
 .navbar-toggler-icon:hover{
     background-color: var(--dark) !important;
-    color: var(--gold) !important;
+    color: var(--white) !important;
     border-color: var(--dark) !important;
 }
 
 .img-fluid{
     border-color: var(--dark) !important;
 }
-
 .form-control{
     padding: 1rem;
     font-weight: 300;
     border: 0;
 }
-
 .form-control:focus{
     outline: none;
     box-shadow: none;
