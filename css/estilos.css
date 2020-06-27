@@ -120,6 +120,13 @@ section{
     box-shadow: none;
     border: 1px solid var(--dark);
 }
+#banner {
+    background-image: url("../images/head004.jpg");
+    background-size: cover;
+}
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.8);
+}
 
 @media (max-width: 575.98px){
     #slide h3{
