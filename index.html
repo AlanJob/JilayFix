@@ -14,6 +14,9 @@
     <title>Jilay Fix</title>
   </head>
   <body class="bg-dark">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <a href="https://api.whatsapp.com/send?phone=522228478747&text=Hola%21%20Bienvenido%20a%20Jilay." class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i></a>
     <nav class="navbar fixed-top navbar-expand-lg bg-dark">
         <div class="container">
         <a class="navbar-brand" href="#">
@@ -31,11 +34,15 @@
                 <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item px-3">
-                <a class="nav-link" href="#">Sucursales</a>
+                <a class="nav-link" href="#Servicios">Servicios</a>
             </li>
             <li class="nav-item px-3">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#Promociones">Promociones</a>
             </li>  
+            <li class="nav-item px-3">
+                <a class="nav-link" href="#Correo">Contacto</a>
+            </li> 
+            <!--
             <li class="nav-item dropdown px-3">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Productos
@@ -47,20 +54,26 @@
                 <a class="dropdown-item" href="#">Accesorios</a>
               </div>
             </li>
+            -->
+            <li class="nav-item px-3">
+              <a class="nav-link" href="tel:+522228478747">Lláma ahora <ion-icon name="call"></ion-icon> <b>222 847 8747</b></a>
+            </li> 
           </ul>
+          <!--
           <form class="form-inline my-2 my-lg-0 text-gold">
             <input class="form-control mr-sm-2" type="search" placeholder="Buscar" aria-label="Search">
             <button class="btn-dark my-2 my-sm-0" type="submit"><ion-icon name="search-outline" size="large"></ion-icon></button>
           </form>
+          -->
         </div>
         </div>
     </nav>
     <section id="banner">
       <div class="jumbotron jumbotron-fluid mt-6">
         <div class="container">
-          <h1 class="display-4 text-light">Reparación de celulares y computadoras</h1>
+          <a href="#Correo"><h1 class="display-4 text-light">Reparación de celulares y computadoras</h1></a>
           <p class="lead text-light">Sería un gusto poder ayudarte</p>
-          <a href="#Contacto"><h3><span class="badge badge-secondary bg-gold text-dark mb-2">Pregunta por tu equipo</span></h3></a>
+          <a href="#Correo"><h3><span class="badge badge-secondary bg-gold text-dark mb-2">Pregunta por tu equipo</span></h3></a>
         </div>
       </div>
     </section>
@@ -106,7 +119,7 @@
       </div>  
     </section> 
 -->
-    <section>
+    <section id="Servicios">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
@@ -167,7 +180,7 @@
       </div>
     </section>
 
-    <section class="bg-light-gray">
+    <section class="bg-light-gray" id="Promociones">
       <div class="container">
         <h2>Los precios están diseñados para ti</h2>
         <p class="lead text-muted">Los expertos en reparación lo reconocen</p>
@@ -177,8 +190,8 @@
               <div class="card-body p-5">
                 <h3><span class="badge badge-secondary bg-dark text-light mb-2">Promociones</span></h3>
                 <p class="lead-mb-4">En la compra de tu display, llévate totalmente gratis una mica de cristal</p>
-                <h2 class="mb-0">Llámanos 22 28 47 87 47</h2>
-                <p class="lead text-muted mb-4">También puedes mandarnos un whatsapp <ion-icon name="logo-whatsapp"></ion-icon></p>
+                <h2 class="mb-0"><a href="tel:+522228478747" class="text-dark">Llámanos <ion-icon name="call"></ion-icon> 222 847 8747</a></h2>
+                <p class="lead text-muted mb-4"><a href="https://api.whatsapp.com/send?phone=522228478747&text=Hola%21%20Bienvenido%20a%20Jilay." class=" text-dark">También puedes mandarnos un whatsapp <ion-icon name="logo-whatsapp"></ion-icon></a></p>
                 <p class="lead font-weight-bold">Características del servicio</p>
                 <ul class="list-unstyled mb-5">
                   <li class="text-muted mb-2"><ion-icon name="checkmark-circle"></ion-icon>  Refacciones de excelente calidad</li>
@@ -276,7 +289,7 @@
         <div class="row">
           <div class=" col-md-4">
             <div class="blog-item position-relative rounded mb-5">
-              <a href="#">
+              <a href="https://g.page/Jilay?share">
                 <div class="blog-info position-absolute">
                   <p class="text-gold mb-3"><span class="font-weight-bold">México</span> - Puebla</p>
                   <h5><ion-icon name="navigate-circle-outline"></ion-icon> Independencia 273 Col. Chapultepec</h5>
@@ -285,26 +298,26 @@
               </a>
             </div>
             <h5 class="mt-5">Información de la empresa</h5>
-            <p>Contáctanos sin ningún compromiso <b>jilay.fix@gmail.com</b></p>
+            <p>Contáctanos sin ningún compromiso <a href="mailto:jilay.fix@gmail.com" class=" text-dark"><b>jilay.fix@gmail.com</b></a></p>
           </div>
-          <div class=" col-md-7 offset-1">
+          <div class=" col-md-7 offset-1 " id="Correo">
             <h2>Cuida tus equipos haciendo la reparación adecuada al mejor costo</h2>
             <p class=" lead text-muted" >Pregunta por tu equipo, te cotizamos en breve. Tenemos servicio a domicilio.</p>
-            <form class="mt-6">
+            <form  action="enviar.php" method="post" class="mt-6">
               <div class=" form-group">
-                <input type="text" class=" form-control" placeholder=" Nombre">
+                <input type="text" name="nombre" class=" form-control" placeholder=" Nombre" required>
               </div>
 
               <div class=" form-group">
-                <input type="email" class=" form-control" placeholder=" Correo">
+                <input type="email" name="correo" class=" form-control" placeholder=" Correo" required>
               </div>
 
               <div class=" form-group">
-                <input type="number" class=" form-control" placeholder=" Celular">
+                <input type="number" name="celular" class=" form-control" placeholder=" Celular" required>
               </div>
 
               <div class=" form-group">
-                <textarea class=" form-control" placeholder=" Mensaje" rows="5"></textarea>
+                <textarea class=" form-control" name="mensaje" placeholder=" Mensaje" rows="5" required></textarea>
               </div>
               <button type="submit" class=" btn btn-secondary ">Enviar mensaje</button> 
 
