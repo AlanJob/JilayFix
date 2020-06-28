@@ -121,7 +121,7 @@ section{
     border: 1px solid var(--dark);
 }
 #banner {
-    background-image: url("../images/head004.jpg");
+    background-image: url("../images/header004.jpg");
     background-size: cover;
 }
 .jumbotron{
